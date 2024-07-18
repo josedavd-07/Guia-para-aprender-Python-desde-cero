@@ -1,7 +1,7 @@
 # Ignorar archivos generados por Python
 __pycache__/
-*.pyc
-*.pyo
+.pyc
+.pyo
 bin/
 lib/
 include/
@@ -12,6 +12,7 @@ venv/
 env/
 
 # Ignorar archivos de registro y caché
-*.log
-*.swp
-*.swo
+.log
+.swp
+.swo
+.idea
